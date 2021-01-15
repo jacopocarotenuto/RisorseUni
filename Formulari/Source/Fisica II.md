@@ -34,11 +34,13 @@ Condensatori: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \
 
 **Energia**: $$U_L = \frac{1}{2}LI^2$$  |  $$U_B = \frac12\frac{B^2}{\mu_0}$$  |  $$U_{tot,circ,B} = \frac12\sum LI_j^2 + \sum_{i > j} M I_iI_j$$ 
 
+**Discontinuità: ** $\Delta B_{\parallel} = \mu_0 k$  |  $\Delta B_{\perp} = 0$
+
 **Correnti:** $j_m = \nabla \times M$  |  $\oint B \cdot dl = \epsilon_0 \mu_0 \frac{\partial \Phi_E}{\partial t}$  |  $\nabla \times B = \mu_0 j_m$  |  $\nabla \cdot B = 0 = \oint B \cdot d\Sigma$  |  $$\oint B \cdot ds = \mu_0 I_{conc}$$
 
 **Material Magnetici**: $M = \frac{du}{d\tau}[A/m]$ |  $k_{m,(condu \,\,superf)} = M \times \hat{u}_n$  | $H = \frac{B}{\mu_0} -M$  |  $\nabla \times H = j_c(conduzione)$  |  $\oint H \cdot ds = I_c$  | $M = \chi_m H$  | $B = \mu_0(1+\chi_m)H = \mu_0 kH$ 
 
-**Discontinuità**: $\Delta H_{\parallel} = K_c \times \hat{u}_n$  |  $\Delta B = -\Delta M$
+**Discontinuità nei materiali**: $\Delta H_{\parallel} = K_c \times \hat{u}_n$  |  $\Delta B = -\Delta M$
 
 **Cavità nei materiali:** *parallela* $H_{in} = H_{out}$  |  $B_{in} = B_{out} - \mu_0M$  *perpend*  $B_{in} = B_{out}$  |  $H_{in} = H_{out} + M$
 
