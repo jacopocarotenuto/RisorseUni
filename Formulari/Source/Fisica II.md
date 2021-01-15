@@ -60,3 +60,18 @@ Condensatori: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \
 
 **Circuito RLC in serie**: $\omega_0^2 = \frac{1}{LC}$  |  $\hat{V}=ZI$  | $\hat{V} = V_0e^{i\omega t}$  |  $\hat{I} = I_0 e^{i(\omega t + \phi)}$  |  $Z = Z_0e^{i\phi} = Z_R + iZ_x$ | $Z_0 = \sqrt{Z_R^2 + Z_x^2}$  | $Z_R = R$  | $Z_x = \omega L - \frac{1}{\omega C}$  | $\left<P\right> = \frac12I_0^2\Re{(Z)} = \frac{1}{T}\int_0^T P(t)dt$  | $\hat{I} = \frac{\hat{V}}{Z} = \frac{V_0}{z_0}e^{i(\omega t -\phi)}$ | $I_{max} = \frac{V_0}{|\Re(Z)|}$
 
+#### Maxwell
+
+|                     Forma Differenziale                      |                       Forma Integrale                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+|     $$\nabla \times E = -\frac{\partial B}{\partial t}$$     |      $$\oint_\gamma E \cdot ds = -\frac{d\Phi_B}{dt}$$       |
+| $$\nabla \times B = \mu_0 j + \mu_0\epsilon_0\frac{\partial E}{\partial t}$$ | $$\oint_\gamma B \cdot ds = \mu_0 I_c + \mu_0\epsilon_0 \frac{d\Phi_E}{dt}$$ |
+|                    $$\nabla \cdot B = 0$$                    |             $$\oint_\Sigma B \cdot d\Sigma = 0$$             |
+|         $$\nabla \cdot E = \frac{\rho}{\epsilon_0}$$         |   $$\oint_\Sigma E \cdot d\Sigma = \frac{Q}{\epsilon_0}$$    |
+
+**Equazioni Fondamentali**
+
+*Continuità*: $$\vec{\nabla}\cdot \vec{j_c} + \frac{\partial \rho}{\partial t} = 0$$
+
+*Nei mezzi*: $\vec{j_c} = \sigma_0 \vec{E}$  |  $\vec{\nabla} \cdot \vec{E} = \frac{\rho}{k \epsilon_0}$  |  $\frac{\partial \rho}{\partial t} = -\frac{\sigma_0}{k \epsilon_0}\rho$  | $\vec{j_s} = k \epsilon_0 \frac{\partial \vec{E}}{\partial t}$  | $\vec{\nabla} \times \vec{B} = \mu_0 (\vec{j_c} + \vec{j_s})$
+
