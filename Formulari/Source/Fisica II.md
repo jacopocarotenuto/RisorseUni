@@ -1,26 +1,30 @@
 #### Elettrostatica
 
-Gauss: $$ \phi_E = 4\pi r^2 E = \frac{Q_{int}}{\epsilon_0}\,\,\,|\,\, \,\nabla \cdot E = \frac{\rho}{\epsilon}$$  $$V = \frac{1}{4\pi\epsilon_0}\int \frac{\rho}{r}d\tau$$  |   Discontinuità: $$\Delta E_{\perp} = \frac{\sigma_{tot}}{\epsilon_0}\,\,\,\,\,\Delta E_{\parallel} = 0$$
+**COSTANTE**: $\epsilon_0 = 8.85\cdot 10^{-12} \left[\frac{C^2}{N\cdot m^2}\right]$
 
-Energia Elettrica $$U_E = \frac{1}{2}\int\rho V d\tau = \frac{\epsilon_0}{2}\int E^2 d\tau$$ | Pressione Elettro: $$p_0 = \frac{\sigma^2}{2\epsilon_0}\hat{u}_n \,\,\,\,\,\, \frac{dP}{d\tau} = E\cdot j = \sigma E^2$$
+**Gauss**: $$ \phi_E = 4\pi r^2 E = \frac{Q_{int}}{\epsilon_0}\,\,\,|\,\, \,\nabla \cdot E = \frac{\rho}{\epsilon}$$  $$V = \frac{1}{4\pi\epsilon_0}\int \frac{\rho}{r}d\tau$$  |   **Discontinuità**: $$\Delta E_{\perp} = \frac{\sigma_{tot}}{\epsilon_0}\,\,\,\,\,\Delta E_{\parallel} = 0$$
 
-Dipolo: $$E = \frac{2p\cos\theta}{4\pi\epsilon_0r^3}\hat{u}_r + \frac{p\sin\theta}{4\pi\epsilon_0 r^2}\hat{u}_\theta = \frac{p}{4\pi\epsilon_0}\sqrt{3\cos^2\theta +1} \,\,|\,\, U = -\vec{p} \cdot \vec{E} \,\,\,|\,\,\, M = \vec{p}\times \vec{E}$$
+**Energia Elettrica** $$U_E = \frac{1}{2}\int\rho V d\tau = \frac{\epsilon_0}{2}\int E^2 d\tau$$ | **Pressione Elettro**: $$p_0 = \frac{\sigma^2}{2\epsilon_0}\hat{u}_n \,\,\,\,\,\, \frac{dP}{d\tau} = E\cdot j = \sigma E^2$$
 
-Conduttori: $$E_{int} = 0 \,\,\,\,|\,\,\,\, V = cost \,\,\,|\,\,\, \rho = 0 \,\,\,|\,\,\,\, E_{sup} = \frac{\sigma^2}{2\epsilon_0}\hat{u}_n$$
+**Dipolo**: $$E = \frac{2p\cos\theta}{4\pi\epsilon_0r^3}\hat{u}_r + \frac{p\sin\theta}{4\pi\epsilon_0 r^2}\hat{u}_\theta = \frac{p}{4\pi\epsilon_0}\sqrt{3\cos^2\theta +1} \,\,|\,\, U = -\vec{p} \cdot \vec{E} \,\,\,|\,\,\, M = \vec{p}\times \vec{E}$$
 
-Condensatori: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \sum C_i$$ *Energia*: $$U_E = \frac{1}{2}\sum V_iQ_i$$
+**Conduttori**: $$E_{int} = 0 \,\,\,\,|\,\,\,\, V = cost \,\,\,|\,\,\, \rho = 0 \,\,\,|\,\,\,\, E_{sup} = \frac{\sigma^2}{2\epsilon_0}\hat{u}_n$$
+
+**Condensatori**: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \sum C_i$$ *Energia*: $$U_E = \frac{1}{2}\sum V_iQ_i$$ |  $VC = Q$
 
 *Piano*: $E = \frac{Q}{\epsilon_0 S}\,\,\,|\,\,\, V = Eh = \frac{Q h}{\epsilon_0 S} \,\,\,|\,\,\, C = \frac{\epsilon_0 S}{h}$  *Sferico*: $E = \frac{Q}{4\pi\epsilon_0 R^2}\,\,\,|\,\,\,V = \frac{Q}{4\pi\epsilon_= r}\,\,\,|\,\,\, C = 4\pi\epsilon_0 \frac{R_1 R_2}{R_2 - R_1}$     				*Cilindrico*: $E =\frac{Q}{2\pi\epsilon_0 h r}\,\,\,|\,\,\, V = \frac{Q}{2\pi\epsilon_0 h}\log{\frac{R_2}{R_1}}\,\,\,|\,\,\, C =\frac{2\pi\epsilon_0 l}{\log{\frac{R_2}{R_1}}}$
 
 **Correnti**: $$DI = j \cdot d\Sigma$$ | $$j = Nq\left< v\right>$$ |  $$j = \sigma_{conduttivita} E$$ |  $$j = \frac{N q^2 \tau E}{m}$$  | $$\sigma_{conduttività} = \frac{N Q^2 \tau}{m}$$
 
-**Ohm**: $$V = RI$$ | $$R = \rho\frac{l}{S}$$  |  $$E = \rho_{resistività}j$$ | $$\sigma_{conduttività} = \rho^{-1}$$ | $$\rho = [\Omega m]$$ | $$RC = \rho \epsilon_0$$ | $$U = \frac{1}{2}CV^2$$
+**Ohm**: $$V = RI$$ | $$R = \rho\frac{l}{S}$$  |  $$E = \rho_{resistività}j$$ | $$\sigma_{conduttività} = \rho^{-1}$$ | $$\rho = [\Omega m]$$ | $$RC = \rho \epsilon_0$$ | $$U = \frac{1}{2}CV^2$$  |  $P = VI$ 
 
 **Kirchoff**: *Nodi* $$\sum I_i = 0$$  *Maglie* $$\sum R_iI_i = 0$$ **Dielettrici**: $p = \alpha \epsilon_0 E_{agente}$ |   $$\sigma_p = P \cdot \hat{u}_n$$ | $$\rho_p = - \nabla \cdot P$$  |   $$\Delta D_{\perp} = \sigma_{lib}\hat{u}_n$$ |  $$D = \epsilon_0 E + P = \epsilon_0(1 + \chi_E)E = \epsilon_0 k E$$  | $$U = \frac{1}{2}\epsilon E^2 \tau$$  | $$w_e = \frac{1}{2}D \cdot E$$  
 
 **Forza elettrica che un dielettrico in un condensatore**: $$F = \frac{1}{2}V^2 \frac{dC}{dx}$$
 
 #### Magnetismo
+
+**COSTANTE**: $\mu_0 = 4\pi \cdot 10^{-7} \left[\frac{T\cdot m}{A} = \frac{N}{A^2}\right]$
 
 **Lorentz**: $$F = q(E + v \times B)$$ | $$r = \frac{mv}{qB}$$ | $$\omega = - \frac{qB}{m}$$  | $$E = \frac{F}{q} = v \times B$$  | passo $$d = v_0 \frac{2 \pi m}{qB}\cos\theta$$ 
 
@@ -64,9 +68,8 @@ Condensatori: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \
 
 #### Maxwell
 
-|                     Forma Differenziale                      |                       Forma Integrale                        |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
 |     $$\nabla \times E = -\frac{\partial B}{\partial t}$$     |      $$\oint_\gamma E \cdot ds = -\frac{d\Phi_B}{dt}$$       |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
 | $$\nabla \times B = \mu_0 j + \mu_0\epsilon_0\frac{\partial E}{\partial t}$$ | $$\oint_\gamma B \cdot ds = \mu_0 I_c + \mu_0\epsilon_0 \frac{d\Phi_E}{dt}$$ |
 |                    $$\nabla \cdot B = 0$$                    |             $$\oint_\Sigma B \cdot d\Sigma = 0$$             |
 |         $$\nabla \cdot E = \frac{\rho}{\epsilon_0}$$         |   $$\oint_\Sigma E \cdot d\Sigma = \frac{Q}{\epsilon_0}$$    |
@@ -77,3 +80,6 @@ Condensatori: *Serie*: $$\frac{1}{C} = \sum \frac{1}{C_i}$$ _Parallelo_: $$C = \
 
 *Nei mezzi*: $\vec{j_c} = \sigma_0 \vec{E}$  |  $\vec{\nabla} \cdot \vec{E} = \frac{\rho}{k \epsilon_0}$  |  $\frac{\partial \rho}{\partial t} = -\frac{\sigma_0}{k \epsilon_0}\rho$  | $\vec{j_s} = k \epsilon_0 \frac{\partial \vec{E}}{\partial t}$  | $\vec{\nabla} \times \vec{B} = \mu_0 (\vec{j_c} + \vec{j_s})$
 
+$[V = J/C]$  |  $E = [\frac{N}{C}] = [\frac{V}{m}]$  |  $\Phi_E = [\frac{N}{C}m^2]$  |  $[A = \frac{C}{s} = \frac{V}{\Omega}]$  | $[T = \frac{N}{A\cdot m}]$  |  $\Phi_B = [T\cdot m^2 ] = [\frac{N\cdot m}{A}]$  | $L = [H] = \left[\frac{T\cdot m^2}{A}\right] = \left[\frac{N\cdot m}{A^2}\right]$
+
+$\nabla \cdot f(r) = \frac{1}{r^2}D[r^2f(r)]$ **!! Solo in cartesiane e $f(r) = f(r)\hat{u}_r$ !!** 
